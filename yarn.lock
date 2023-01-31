@@ -1157,35 +1157,6 @@
   version "2.1.8-no-fsevents.3"
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz"
 
-"@node-redis/bloom@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@node-redis/bloom/-/bloom-1.0.1.tgz"
-
-"@node-redis/client@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@node-redis/client/-/client-1.0.3.tgz"
-  dependencies:
-    cluster-key-slot "1.1.0"
-    generic-pool "3.8.2"
-    redis-parser "3.0.0"
-    yallist "4.0.0"
-
-"@node-redis/graph@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@node-redis/graph/-/graph-1.0.0.tgz"
-
-"@node-redis/json@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@node-redis/json/-/json-1.0.2.tgz"
-
-"@node-redis/search@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@node-redis/search/-/search-1.0.2.tgz"
-
-"@node-redis/time-series@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@node-redis/time-series/-/time-series-1.0.1.tgz"
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -1292,6 +1263,34 @@
   resolved "https://registry.npmjs.org/@octokit/types/-/types-6.34.0.tgz"
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
+
+"@redis/bloom@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@redis/bloom/-/bloom-1.2.0.tgz#d3fd6d3c0af3ef92f26767b56414a370c7b63b71"
+
+"@redis/client@1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.5.5.tgz#330aa9c2dafe1e2a2aa603619e58095fe33c3a1e"
+  dependencies:
+    cluster-key-slot "1.1.2"
+    generic-pool "3.9.0"
+    yallist "4.0.0"
+
+"@redis/graph@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@redis/graph/-/graph-1.1.0.tgz#cc2b82e5141a29ada2cce7d267a6b74baa6dd519"
+
+"@redis/json@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@redis/json/-/json-1.0.4.tgz#f372b5f93324e6ffb7f16aadcbcb4e5c3d39bda1"
+
+"@redis/search@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@redis/search/-/search-1.1.1.tgz#f547b76b74f267831d3b368e3d7bba3a6a9e32bd"
+
+"@redis/time-series@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.0.4.tgz#af85eb080f6934580e4d3b58046026b6c2b18717"
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -2105,9 +2104,9 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
 
-cluster-key-slot@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/cluster-key-slot/-/cluster-key-slot-1.1.0.tgz"
+cluster-key-slot@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/cluster-key-slot/-/cluster-key-slot-1.1.2.tgz#88ddaa46906e303b5de30d3153b7d9fe0a0c19ac"
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -3412,9 +3411,9 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-generic-pool@3.8.2:
-  version "3.8.2"
-  resolved "https://registry.npmjs.org/generic-pool/-/generic-pool-3.8.2.tgz"
+generic-pool@3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.9.0.tgz#36f4a678e963f4fdb8707eab050823abc4e8f5e4"
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -5616,26 +5615,16 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redis-errors@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/redis-errors/-/redis-errors-1.2.0.tgz"
-
-redis-parser@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/redis-parser/-/redis-parser-3.0.0.tgz"
-  dependencies:
-    redis-errors "^1.0.0"
-
 redis@^4.0.0:
-  version "4.0.3"
-  resolved "https://registry.npmjs.org/redis/-/redis-4.0.3.tgz"
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-4.6.4.tgz#fe84169de000b247009c70c2740f22d1f85bc2de"
   dependencies:
-    "@node-redis/bloom" "1.0.1"
-    "@node-redis/client" "1.0.3"
-    "@node-redis/graph" "1.0.0"
-    "@node-redis/json" "1.0.2"
-    "@node-redis/search" "1.0.2"
-    "@node-redis/time-series" "1.0.1"
+    "@redis/bloom" "1.2.0"
+    "@redis/client" "1.5.5"
+    "@redis/graph" "1.1.0"
+    "@redis/json" "1.0.4"
+    "@redis/search" "1.1.1"
+    "@redis/time-series" "1.0.4"
 
 reflect-metadata@^0.1.13:
   version "0.1.13"
