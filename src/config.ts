@@ -1,9 +1,9 @@
 export default {
-  secretKey: 'THISISMYSECURETOKEN',
+  secretKey: '987654321d9m8df11',
   host: 'http://localhost',
   port: '21465',
-  deviceName: 'WppConnect',
-  poweredBy: 'WPPConnect-Server',
+  deviceName: 'Google Chrome',
+  poweredBy: 'Google Chrome (MacOS)',
   startAllSession: true,
   tokenStoreType: 'file',
   maxListeners: 15,
